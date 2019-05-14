@@ -8,80 +8,80 @@ import os
 dataX=[]
 dataY=[]
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Andy"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Andy\\"+x)
+for x in os.listdir("dataset\\dataset\\Andy"):
+    temp=cv2.imread("dataset\\dataset\\Andy\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Andy')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Angela"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Angela\\"+x)
+for x in os.listdir("dataset\\dataset\\Angela"):
+    temp=cv2.imread("dataset\\dataset\\Angela\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Angela')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Creed"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Creed\\"+x)
+for x in os.listdir("dataset\\dataset\\Creed"):
+    temp=cv2.imread("dataset\\dataset\\Creed\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Creed')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Dwight"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Dwight\\"+x)
+for x in os.listdir("dataset\\dataset\\Dwight"):
+    temp=cv2.imread("dataset\\dataset\\Dwight\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Dwight')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Jim"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Jim\\"+x)
+for x in os.listdir("dataset\\dataset\\Jim"):
+    temp=cv2.imread("dataset\\dataset\\Jim\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Jim')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Kelly"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Kelly\\"+x)
+for x in os.listdir("dataset\\dataset\\Kelly"):
+    temp=cv2.imread("dataset\\dataset\\Kelly\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Kelly')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Kevin"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Kevin\\"+x)
+for x in os.listdir("dataset\\dataset\\Kevin"):
+    temp=cv2.imread("dataset\\dataset\\Kevin\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Kevin')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Meredith"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Meredith\\"+x)
+for x in os.listdir("dataset\\dataset\\Meredith"):
+    temp=cv2.imread("dataset\\dataset\\Meredith\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Meredith')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Michael"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Michael\\"+x)
+for x in os.listdir("dataset\\dataset\\Michael"):
+    temp=cv2.imread("dataset\\dataset\\Michael\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Michael')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Oscar"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Oscar\\"+x)
+for x in os.listdir("dataset\\dataset\\Oscar"):
+    temp=cv2.imread("dataset\\dataset\\Oscar\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Oscar')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Pam"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Pam\\"+x)
+for x in os.listdir("dataset\\dataset\\Pam"):
+    temp=cv2.imread("dataset\\dataset\\Pam\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Pam')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Phyllis"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Phyllis\\"+x)
+for x in os.listdir("dataset\\dataset\\Phyllis"):
+    temp=cv2.imread("dataset\\dataset\\Phyllis\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Phylis')
 #%%
-for x in os.listdir("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Rose"):
-    temp=cv2.imread("C:\\Users\\albym\\VSCODE\\FaceRecogRandomForest\\FaceRecognitionRandomForest\\dataset\\dataset\\Rose\\"+x)
+for x in os.listdir("dataset\\dataset\\Rose"):
+    temp=cv2.imread("dataset\\dataset\\Rose\\"+x)
     temp=cv2.resize(temp,(64,64))
     dataX.append(temp)
     dataY.append('Rose')
